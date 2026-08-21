@@ -1,2 +1,0 @@
-# OverTheWire-Bandit-
-Bandit Guide.
