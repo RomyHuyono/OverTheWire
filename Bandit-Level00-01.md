@@ -1,16 +1,16 @@
-#OverTheWire Bandit (Level 0-1)
+# OverTheWire Bandit (Level 0-1)
 
-#Objectives#
+# Objectives
 Get The Password in a "readme" file that
  located in home directory
 
-#Command Used#
+# Command Used
 ls, cat, ssh
 
-#Tool Used#
+# Tool Used
 Ubuntu Terminal
 
-#Step By Step#
+# Step By Step
 1. Open the Ubuntu Terminal
 2. Type command like this: 
     ssh bandit0@bandit.labs.overthewire.org -p 2220
@@ -22,4 +22,4 @@ Ubuntu Terminal
 5. You will see the file named readme and you can type this command:
     cat readme
 
-    # And congrats, you complete the level 0-1#
+    # And congrats, you complete the level 0-1
