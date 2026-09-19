@@ -12,7 +12,7 @@
 3. The password is password that you get on level 6-7
 4. After you in, you can type ls (list) to see what document saved in that directory and you will see a file named "data.txt"
 5. Type this command "grep "millionth" data.txt"
-
+    # grep is used to display rows according to the requested charaacters
    
     
 
