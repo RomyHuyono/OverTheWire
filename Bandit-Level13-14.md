@@ -5,7 +5,7 @@
  If you need help with this level: a hint file can be found in the home directory.
  Make sure to read the error messages as they are informative.
 # Command used
-    ssh, ls,  cat, tr
+    ssh, ls,  cat, nano, chmod
 
 # Step By Step
 1. Open the Ubuntu Terminal
@@ -19,7 +19,7 @@
     # read = 4, write = 2, execute = 1
     # ex: chmod 600 the left number is owner and the middle is group, and the right is others
 8. And then type "ssh -i bandit14.key bandit14@bandit.labs.overthewire.org -p 2220"
-9. After you in, type "cat /etc/bandit_pass/bandit14
+9. After you in, type "cat /etc/bandit_pass/bandit14"
    
     
 
