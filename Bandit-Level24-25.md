@@ -1,4 +1,4 @@
-# OverTheWire Bandit (Level 21-22)
+# OverTheWire Bandit (Level 24-25)
 
 # Objectives
   A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing.
@@ -23,4 +23,4 @@ You do not need to create new connections each tim
 8. After that type this "grep -v "Wrong" result.txt"
     # -v is invert match (look for words other than those requested)
 
-# AND CONGRATS YOU COMPLETE LEVEL 22
+# AND CONGRATS YOU COMPLETE LEVEL 24

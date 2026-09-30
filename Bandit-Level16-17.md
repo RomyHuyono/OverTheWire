@@ -16,7 +16,7 @@
     # -sV is mean for service /version detection that is used to Check open ports to determine what applications/services are running and their specific versions.
 6. You will see around 5 ports, choose port with "ssl/unknown" service and type this command " cat /etc/bandit_pass/bandit16 | openssl s_client -connect localhost:31790 -ign_eof"
     # -ign_eof is mean ignore end of file that command openssl to not immediately closed the connection after send data from pipe 
-7. You will see many text  and select all of them from -----BEGIN until -----END OPENSSH PRIVATE KEY-----  and then logout from bandit16
+7. You will see many text  and select all of them from -----BEGIN until -----END OPENSSH PRIVATE KEY-----  and then logout from bandit16 (type exit)
 8. On your local computer make a key file on it with type this "nano bandit17.key" and you will in the nano code editor, after that paste it in there with click right on your mouse/touchpad and then click ctrl + O and enter, and ctrl + x to exit
 9. Change the permission of file use "chmod 600 bandit14.key" 
     # read = 4, write = 2, execute = 1

@@ -13,7 +13,7 @@
     # ssh is used to connect to the overthewire server and after @ was the hostlink of overthewire and -p is mean port and the port number of overthewire is 2220
 3. The password is password that you get on level 12-13
 4. After you in, you can type ls (list) to see what document saved in that directory and you will see a file named "sshkey.private"
-5. Type this command "cat sshkey.private" and select all of them from -----BEGIN until -----END OPENSSH PRIVATE KEY-----  and then logout from bandit13
+5. Type this command "cat sshkey.private" and select all of them from -----BEGIN until -----END OPENSSH PRIVATE KEY-----  and then logout from bandit13 (type exit)
 6. On your local computer make a key file on it with type this "nano bandit14.key" and you will in the nano code editor, after that paste it in there with click right on your mouse/touchpad and then click ctrl + O and enter, and ctrl + x to exit
 7. Change the permission of file use "chmod 600 bandit14.key" 
     # read = 4, write = 2, execute = 1
