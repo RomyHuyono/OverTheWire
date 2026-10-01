@@ -5,7 +5,7 @@
 
     From your local machine (not the OverTheWire machine!), clone the repository and find the password for the next level. This needs git installed locally on your machine.
 # Command used
-    ssh, cat, cd, mktemp, git, ls
+    ssh, cat, cd, git, ls
 
 # Step By Step
 1. Open the Ubuntu Terminal
